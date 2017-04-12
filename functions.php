@@ -16,13 +16,23 @@ add_action('wp_enqueue_scripts', 'amd_load_scripts');
 
 function amd_widgets_init() {
 	register_sidebar( array (
-	'name' => __( 'Sidebar Widget Area', 'blankslate' ),
+	'name' => __( 'Sidebar Widget Area', 'amd' ),
 	'id' => 'primary-widget-area',
 	'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
 	'after_widget' => "</li>",
 	'before_title' => '<h3 class="widget-title">',
 	'after_title' => '</h3>',
 	) );
+	
+	// New in-page grid widget ara
+	register_sidebar( array (
+		'name' => __( 'In-Page Grid Area', 'amd' ),
+		'id' => 'in-page-widget-area',
+		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+		'after_widget' => "</li>",
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	));
 }
 add_action( 'widgets_init', 'amd_widgets_init' );
 
