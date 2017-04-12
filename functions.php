@@ -4,8 +4,7 @@
 
 function amd_load_scripts() {
 //	wp_enqueue_script('jqm_js', 'http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js', array('jquery'), '1.2.0');
-	wp_enqueue_script('amd-mobile', get_template_directory_uri() . '/js/mobile.js', array('jquery'));
-	wp_enqueue_script('amd-slideshow', get_template_directory_uri() . '/js/slideshow.js', array('jquery'));
+	wp_enqueue_script( 'amd-script', get_template_directory_uri() . '/js/script.min.js', array( 'jquery') );
 	
 }
 

@@ -9,7 +9,6 @@ jQuery(function($) {
 			boxHeight = imgHeight;
 		}
 	});
-	console.log(boxHeight);
 	boxHeight = parseInt(boxHeight) + 50;
 	$("#slideshow-container").css({height: boxHeight + "px"});
 	
