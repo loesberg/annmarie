@@ -502,3 +502,33 @@ body.home h1.entry-title {
     height: auto;
   }
 }
+.page-template-page-grid #main-box {
+  width: 95%;
+  max-width: 1000px;
+}
+.page-template-page-grid #content {
+  padding: 15px 0;
+}
+.page-template-page-grid #content article {
+  padding: 0 80px;
+}
+.page-template-page-grid #content #amd-widget-grid {
+  margin-left: 0;
+  font-size: inherit;
+  padding: 0 80px;
+}
+.page-template-page-grid #content #amd-widget-grid > li > ul {
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  #amd-widget-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #amd-widget-grid > li {
+    width: 33%;
+  }
+}

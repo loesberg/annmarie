@@ -1,0 +1,42 @@
+.page-template-page-grid {
+	
+	#main-box {
+		width: 95%;
+		max-width: 1000px;
+	}
+	
+	#content {
+		padding: 15px 0;
+		
+		article {
+			padding: 0 80px;
+		}
+		
+		#amd-widget-grid {
+			margin-left: 0;
+			font-size: inherit;
+			padding: 0 80px;
+			
+			> li > ul {
+				padding: 0;
+				margin: 0;
+			}
+		}
+	}
+}
+
+
+@media only screen and
+(min-width: 600px) {
+	
+	#amd-widget-grid {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		
+		> li {
+			width: 33%;
+		}
+	}
+	
+}

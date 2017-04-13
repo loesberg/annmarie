@@ -20,8 +20,10 @@ get_header(); ?>
 </section>
 </article>
 
-<div id="amd-widget-grid">
+<div id="amd-widget-grid-box">
+	<ul id="amd-widget-grid">
 	<?php dynamic_sidebar(' in-page-widget-area' ); ?>
+	<ul>
 </div>
 
 	</div><!-- close content-->
