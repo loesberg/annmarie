@@ -10,9 +10,10 @@ Tags: black, blue, white, light, one-column, fluid-layout, responsive-layout, cu
 
 Ann Marie Therapy WordPress Theme © 2014 Ann Marie Dobosz
 */
+/* Colors */
 body {
   background: url("images/doors-blue-bottom-left.jpg") no-repeat left bottom;
-  background-color: #43548A;
+  background-color: #43548a;
   text-align: center;
   color: black;
   padding-bottom: 30px;
@@ -36,12 +37,7 @@ body {
   background-color: #fffff0;
   overflow: auto;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -khtml-border-radius: 10px;
-  box-shadow: inset 0 0 2px 2px #43548A;
-  -moz-box-shadow: inset 0 0 2px 2px #43548A;
-  -webkit-box-shadow: inset 0 0 2px 2px #43548A;
+  box-shadow: inset 0 0 2px 2px #43548a;
 }
 
 /* New Home Page and Slideshow Page Styles */
@@ -151,33 +147,33 @@ body.home h1, .slideshow-template h1 {
 }
 
 .current-menu-item a, .current-menu-item a:visited {
-  color: #43548A;
+  color: #43548a;
   font-weight: bolder;
 }
 
 #header-border {
   width: 509px;
-  border-top: 1px dotted #7D460B;
+  border-top: 1px dotted #7d460b;
   height: 4px;
   margin: 20px 0 0 30px;
 }
 
 a, a:visited {
   text-decoration: none;
-  color: #7D460B;
+  color: #7d460b;
 }
 
 a:hover, a:active {
   text-decoration: none;
-  color: #43548A;
+  color: #43548a;
 }
 
 #content a, #content a:visited {
-  border-bottom: 1px dotted #7D460B;
+  border-bottom: 1px dotted #7d460b;
 }
 
 #content a:hover, #content a:active {
-  border-bottom: 1px dotted #43548A;
+  border-bottom: 1px dotted #43548a;
 }
 
 /* Blog Page Styles */
@@ -246,15 +242,15 @@ h1 {
 }
 
 .current-page {
-  color: #43548A;
+  color: #43548a;
   font-weight: bolder;
 }
 
 #bullet-box {
   width: 200px;
   float: right;
-  border-left: 1px dotted #7D460B;
-  border-bottom: 1px dotted #7D460B;
+  border-left: 1px dotted #7d460b;
+  border-bottom: 1px dotted #7d460b;
   margin: 0 0 10px 20px;
   border-bottom-left-radius: 10px;
   -khtml-bottom-left-radius: 10px;
@@ -334,7 +330,7 @@ h1 {
 
 #nav-arrow {
   text-align: center;
-  color: #7D4608;
+  color: #7d460b;
   font-size: 18pt;
   display: none;
 }
@@ -343,12 +339,7 @@ h1 {
   display: none;
   background-color: #fffff0;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -khtml-border-radius: 10px;
-  box-shadow: inset 0 0 2px 2px #43548A;
-  -moz-box-shadow: inset 0 0 2px 2px #43548A;
-  -webkit-box-shadow: inset 0 0 2px 2px #43548A;
+  box-shadow: inset 0 0 2px 2px #43548a;
 }
 
 /* WordPress-specific styles */
@@ -487,10 +478,8 @@ body.home h1.entry-title {
   #bullet-box, #sidebar {
     float: none;
     margin: 0 auto 20px auto;
-    border: 1px dotted #7D460B;
+    border: 1px dotted #7d460b;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
   }
 
   #homepage-callout {
