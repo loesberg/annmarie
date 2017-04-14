@@ -19,11 +19,10 @@ get_header(); ?>
 <?php endwhile; endif; ?>
 </section>
 </article>
+<hr class="hr-gradient">
 
-<div id="amd-widget-grid-box">
-	<ul id="amd-widget-grid">
+<div id="amd-widget-grid">
 	<?php dynamic_sidebar(' in-page-widget-area' ); ?>
-	<ul>
 </div>
 
 	</div><!-- close content-->

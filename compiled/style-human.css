@@ -502,6 +502,14 @@ body.home h1.entry-title {
     height: auto;
   }
 }
+.hr-gradient {
+  border: 0;
+  height: 1px;
+  width: 95%;
+  background-image: linear-gradient(to right, transparent, rgba(48, 48, 48, 0.75), transparent);
+  margin: 39px 0 36px 0;
+}
+
 .page-template-page-grid #main-box {
   width: 95%;
   max-width: 1000px;
@@ -512,23 +520,51 @@ body.home h1.entry-title {
 .page-template-page-grid #content article {
   padding: 0 80px;
 }
-.page-template-page-grid #content #amd-widget-grid {
+
+#amd-widget-grid {
   margin-left: 0;
   font-size: inherit;
-  padding: 0 80px;
+  padding: 0 20px;
 }
-.page-template-page-grid #content #amd-widget-grid > li > ul {
-  padding: 0;
-  margin: 0;
+#amd-widget-grid .widget-title {
+  margin-top: 0;
 }
 
-@media only screen and (min-width: 600px) {
+.grid-widget {
+  border-bottom: 1px dotted black;
+  margin-bottom: 4rem;
+}
+
+@media only screen and (min-width: 750px) {
   #amd-widget-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  #amd-widget-grid > li {
-    width: 33%;
+
+  .grid-widget {
+    width: 43%;
+    border-bottom: none;
+    border-right: 1px dotted black;
+    padding: 0 1.6rem;
   }
+  .grid-widget:nth-child(even) {
+    border-right: none;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .grid-widget, .grid-widget:nth-child(even) {
+    width: 27%;
+    padding: 0 1.6rem;
+    border-right: 1px dotted black;
+  }
+  .grid-widget:nth-child(3n+3), .grid-widget:nth-child(even):nth-child(3n+3) {
+    border-right: none;
+  }
+}
+#amd-widget-grid img, #amd-widget-grid .alignnone {
+  max-width: 95%;
+  margin: 0 auto;
+  display: block;
+  height: auto !important;
 }
