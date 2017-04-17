@@ -52,7 +52,7 @@
 		padding: 2rem 1.6rem;
                 margin-bottom: 0;
 		
-		&:nth-child(even) {
+		&:nth-child(even), &:last-child {
 			border-right: none;
 		}
 	}
