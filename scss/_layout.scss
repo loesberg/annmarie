@@ -33,27 +33,24 @@
 }
 
 .grid-widget {
-	border-bottom: 1px dotted black;
-	margin-bottom: 4rem;
+	border-bottom: 1px dotted $amd-brown;
+	margin-bottom: 2rem;
 }
 
-
-
-
 @media only screen and
-(min-width: 750px) {
+(min-width: 600px) {
 	
 	#amd-widget-grid {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: center;
 	}
 	
 	.grid-widget {
-		width: 43%;
-		border-bottom: none;
-		border-right: 1px dotted black;
-		padding: 0 1.6rem;
+		width: 37%;
+		border-right: 1px dotted $amd-brown;
+		padding: 2rem 1.6rem;
+                margin-bottom: 0;
 		
 		&:nth-child(even) {
 			border-right: none;
@@ -66,8 +63,7 @@
 	
 	.grid-widget, .grid-widget:nth-child(even) {
 		width: 27%;
-		padding: 0 1.6rem;
-		border-right: 1px dotted black;	
+		border-right: 1px dotted $amd-brown;
 		
 		&:nth-child(3n+3) {
 			border-right: none;
