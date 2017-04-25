@@ -25,7 +25,7 @@
 #amd-widget-grid {
 	margin-left: 0;
 	font-size: inherit;
-	padding: 0 20px;
+	padding: 0.9rem;
 				
 	.widget-title {
 		margin-top: 0;
@@ -33,7 +33,6 @@
 }
 
 .grid-widget {
-	border-bottom: 1px dotted $amd-brown;
 	margin-bottom: 2rem;
 }
 
@@ -48,13 +47,8 @@
 	
 	.grid-widget {
 		width: 37%;
-		border-right: 1px dotted $amd-brown;
 		padding: 2rem 1.6rem;
-                margin-bottom: 0;
-		
-		&:nth-child(even), &:last-child {
-			border-right: none;
-		}
+        margin-bottom: 0;
 	}
 }
 
@@ -63,11 +57,7 @@
 	
 	.grid-widget, .grid-widget:nth-child(even) {
 		width: 27%;
-		border-right: 1px dotted $amd-brown;
 		
-		&:nth-child(3n+3) {
-			border-right: none;
-		}
 	}
 	
 }

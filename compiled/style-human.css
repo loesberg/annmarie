@@ -513,14 +513,13 @@ body.home h1.entry-title {
 #amd-widget-grid {
   margin-left: 0;
   font-size: inherit;
-  padding: 0 20px;
+  padding: 0.9rem;
 }
 #amd-widget-grid .widget-title {
   margin-top: 0;
 }
 
 .grid-widget {
-  border-bottom: 1px dotted #7d460b;
   margin-bottom: 2rem;
 }
 
@@ -533,21 +532,13 @@ body.home h1.entry-title {
 
   .grid-widget {
     width: 37%;
-    border-right: 1px dotted #7d460b;
     padding: 2rem 1.6rem;
     margin-bottom: 0;
-  }
-  .grid-widget:nth-child(even), .grid-widget:last-child {
-    border-right: none;
   }
 }
 @media only screen and (min-width: 950px) {
   .grid-widget, .grid-widget:nth-child(even) {
     width: 27%;
-    border-right: 1px dotted #7d460b;
-  }
-  .grid-widget:nth-child(3n+3), .grid-widget:nth-child(even):nth-child(3n+3) {
-    border-right: none;
   }
 }
 #amd-widget-grid img, #amd-widget-grid .alignnone {
