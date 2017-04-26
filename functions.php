@@ -5,6 +5,8 @@
 function amd_load_scripts() {
 //	wp_enqueue_script('jqm_js', 'http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js', array('jquery'), '1.2.0');
 	wp_enqueue_script( 'amd-script', get_template_directory_uri() . '/js/script.min.js', array( 'jquery') );
+	// Google Fonts: Lato
+	wp_enqueue_style( 'amd-google-font', 'https://fonts.googleapis.com/css?family=Lato', false );
 	
 }
 

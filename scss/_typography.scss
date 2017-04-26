@@ -1,0 +1,17 @@
+#amd-widget-grid {
+	font-family: $grid-font-family;
+	font-size: 1.3rem;
+}
+
+.grid-widget {
+	
+	#{$a-tags} {
+		color: $content-text-color;
+		border: none;
+	}
+	
+	#{$a-tags-hover} {
+		color: $amd-brown;
+		border-bottom: 1px dotted $amd-brown;
+	}
+}
