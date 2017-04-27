@@ -538,6 +538,9 @@ body.home h1.entry-title {
 .grid-widget p {
   margin: 0 0 0.6rem 0;
 }
+.grid-widget img {
+  border: none;
+}
 
 @media only screen and (min-width: 600px) {
   #amd-widget-grid {

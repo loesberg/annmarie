@@ -11,7 +11,7 @@
 		}
 		?>
 </title>
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>?ver=<?php echo time(); ?>" />
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

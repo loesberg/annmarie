@@ -26,7 +26,7 @@ get_header(); ?>
 </div>
 
 	</div><!-- close content-->
-	<div style="border-top: 1px dotted #7D460B; width: 200px; margin: 0 auto; height: 20px;"></div>
+	<div style="margin: 0 auto; height: 20px;"></div>
 
 	<?php amd_get_footer_quote(get_the_ID()); ?>
 	</div><!-- close main-box -->

@@ -37,6 +37,17 @@ function amd_widgets_init() {
 }
 add_action( 'widgets_init', 'amd_widgets_init' );
 
+// Add custom grid image size
+add_image_size( 'grid-image', 300, 222, true );
+
+// Make human-readable names for custom image sizes
+function amd_custom_image_sizes( $sizes ) {
+	return array_merge( $sizes, array(
+		'grid-image' => __( 'Grid Image' ),
+	));
+}
+add_filter( 'image_size_names_choose', 'amd_custom_image_sizes' );
+
 // Language suppport, feed links, thumbnails.
 function amd_setup() {
 	load_theme_textdomain( 'amd', get_template_directory() . '/languages' );
