@@ -193,7 +193,7 @@ a:hover, a:active {
 
 /* Blog Page Styles */
 body.blog #content, body.single #content, body.category #content {
-  width: 380px;
+  width: 500px;
   float: left;
 }
 
