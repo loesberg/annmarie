@@ -46,7 +46,8 @@ body {
 #main-box {
   position: relative;
   margin: 0 auto;
-  width: 800px;
+  width: 95%;
+  max-width: 1000px;
   text-align: left;
   background-color: #fffff0;
   overflow: auto;
@@ -70,7 +71,7 @@ body {
 
 #homepage-content {
   float: left;
-  width: 370px;
+  width: 500px;
 }
 
 #slideshow-container {
@@ -399,16 +400,13 @@ body.home h1.entry-title {
     width: 768px;
   }
 
-  #main-box {
-    width: 750px;
-  }
-
-  #homepage-content {
-    width: 340px;
-  }
-
   body.blog #content, body.single #content {
     padding-left: 40px;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 480px) {
+  #homepage-content {
+    width: 300px;
   }
 }
 /* Mobile Phones */
@@ -422,7 +420,6 @@ body.home h1.entry-title {
   }
 
   #main-box {
-    width: 300px;
     background-image: none;
   }
 
